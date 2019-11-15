@@ -1,0 +1,13 @@
+.wrapper {
+  background: #f7f5f4 0% 0% no-repeat padding-box;
+}
+.header {
+  padding-top: 36px;
+  padding-bottom: 24px;
+  font-family: 'Proxima Nova, Regular San-serif';
+  font-size: 32px;
+  color: #43425d;
+  opacity: 1;
+  letter-spacing: 0;
+  background: white;
+}
