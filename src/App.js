@@ -4,8 +4,7 @@ import styles from './App.module.css';
 
 export default class App extends Component {
   state = {
-    cart: [],
-    shop: [
+    documentDetails: [
       {
         id: 1,
         label: 'Name',
@@ -55,8 +54,9 @@ export default class App extends Component {
   render() {
     return (
       <div className={styles.wrapper}>
+        {/* Convert Header into a component */}
         <header className={styles.header}>Captured Field Information</header>
-        {this.state.shop.map((item, key) => (
+        {this.state.documentDetails.map((item, key) => (
           <Item className={styles.wrapper} item={item} key={item.id} />
         ))}
       </div>
