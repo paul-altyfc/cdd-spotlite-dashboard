@@ -4,10 +4,8 @@
 .header {
   padding-top: 36px;
   padding-bottom: 24px;
-  font-family: 'Proxima Nova, Regular San-serif';
+  font-family: proxima-nova, sans-serif;
   font-size: 32px;
   color: #43425d;
-  opacity: 1;
-  letter-spacing: 0;
   background: white;
 }

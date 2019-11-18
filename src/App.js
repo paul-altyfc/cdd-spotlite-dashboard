@@ -1,16 +1,54 @@
 import React, { Component } from 'react';
-import Item from './compoments/Item';
+import Item from './components/Item';
 import styles from './App.module.css';
 
 export default class App extends Component {
   state = {
     cart: [],
     shop: [
-      { id: 35, name: 'jumper', color: 'red', price: 20 },
-      { id: 42, name: 'shirt', color: 'blue', price: 15 },
-      { id: 56, name: 'pants', color: 'green', price: 25 },
-      { id: 71, name: 'socks', color: 'black', price: 5 },
-      { id: 72, name: 'socks', color: 'white', price: 5 }
+      {
+        id: 1,
+        label: 'Name',
+        content: 'UK Credit Header (AML)'
+      },
+      {
+        id: 2,
+        label: 'Description',
+        content:
+          'UK Credit Header Database. Provides authentication of name, address and date of birth against Credit Header information for an Anti Money Laundering Check.'
+      },
+      { id: 3, label: 'ID', content: '155' },
+      { id: 4, label: 'Pass', content: '1' },
+      {
+        id: 5,
+        label: 'Address',
+        content: '73 Ashley Drive, United Kingdom'
+      },
+      {
+        id: 6,
+        label: 'Forename',
+        content: 'Christopher'
+      },
+      {
+        id: 7,
+        label: 'Surname',
+        content: 'Pimlott'
+      },
+      {
+        id: 8,
+        label: 'DOB',
+        content: '1978-06-28'
+      },
+      {
+        id: 9,
+        label: 'Alert',
+        content: '3'
+      },
+      {
+        id: 10,
+        label: 'PublishedTelephoneNumber',
+        content: '004407961857265'
+      }
     ]
   };
 

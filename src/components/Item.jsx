@@ -3,11 +3,11 @@ import styles from './Item.module.css';
 
 export default class Item extends Component {
   render() {
+    const { label, content } = this.props.item;
     return (
       <div className={styles.grid}>
-        <p>{this.props.item.name}</p>
-        <p>{this.props.item.color}</p>
-        {/* <p>${this.props.item.price}</p> */}
+        <p className={styles.label}>{label}</p>
+        <p className={styles.content}>{content}</p>
       </div>
     );
   }
